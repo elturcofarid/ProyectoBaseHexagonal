@@ -28,13 +28,10 @@ public class HexagonalArchitectureTest {
         noClasses().that().resideInAPackage("..application..")
             .should().dependOnClassesThat().resideInAPackage("..infrastructure..");
 
-   //  @ArchTest
-    // public static final ArchRule infrastructure_can_depend_on_application_and_domain =
-    //     classes().that().resideInAPackage("..infrastructure..")
-    //         .should().onlyDependOnClassesThat().resideInAPackage("..domain..")
-     //        .orShould().onlyDependOnClassesThat().resideInAPackage("..application..")
-     //        .orShould().onlyDependOnClassesThat().resideInAPackage("..infrastructure..")
-     //        .orShould().onlyDependOnClassesThat().resideOutsideOfPackages("..hexagonalapp..");
+    @ArchTest
+    public static final ArchRule infrastructure_adapters_should_not_depend_on_input_adapters =
+        noClasses().that().resideInAPackage("..infrastructure.adapter.out..")
+            .should().dependOnClassesThat().resideInAPackage("..infrastructure.adapter.in..");
 
     // 2. Convenciones de Nomenclatura de Paquetes
 
@@ -43,7 +40,7 @@ public class HexagonalArchitectureTest {
         classes().that().resideInAPackage("..domain..")
             .should().resideInAPackage("..domain.model..")
             .orShould().resideInAPackage("..domain.service..");
-
+    
     @ArchTest
     public static final ArchRule application_packages_should_follow_conventions =
         classes().that().resideInAPackage("..application..")

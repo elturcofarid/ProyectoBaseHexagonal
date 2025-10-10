@@ -4,6 +4,7 @@
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/application/port/out/EmailService.java
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/domain/service/UserDomainService.java
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/infrastructure/adapter/in/UserController.java
+/Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/infrastructure/adapter/in/UserResponse.java
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/application/service/UserApplicationService.java
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/infrastructure/adapter/out/SpringDataUserRepository.java
 /Users/elturcofarid/Desarrollo/Servicio Base/src/main/java/com/example/hexagonalapp/application/port/out/UserRepository.java

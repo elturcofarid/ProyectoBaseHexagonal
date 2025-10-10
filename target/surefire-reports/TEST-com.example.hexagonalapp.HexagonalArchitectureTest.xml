@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.hexagonalapp.HexagonalArchitectureTest" time="0.402" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.hexagonalapp.HexagonalArchitectureTest" time="0.415" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/elturcofarid/Desarrollo/Servicio Base/target/surefire/surefirebooter-20251010150628378_3.jar /Users/elturcofarid/Desarrollo/Servicio Base/target/surefire 2025-10-10T15-06-28_350-jvmRun1 surefire-20251010150628378_1tmp surefire_0-20251010150628378_2tmp"/>
+    <property name="sun.java.command" value="/Users/elturcofarid/Desarrollo/Servicio Base/target/surefire/surefirebooter-20251010152237825_3.jar /Users/elturcofarid/Desarrollo/Servicio Base/target/surefire 2025-10-10T15-22-37_795-jvmRun1 surefire-20251010152237825_1tmp surefire_0-20251010152237825_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="HexagonalArchitectureTest"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/elturcofarid/Desarrollo/Servicio Base/target/surefire/surefirebooter-20251010150628378_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/elturcofarid/Desarrollo/Servicio Base/target/surefire/surefirebooter-20251010152237825_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="25"/>
@@ -61,9 +61,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="domain_should_not_depend_on_application_or_infrastructure" classname="HexagonalArchitectureTest" time="0.397">
-    <system-out><![CDATA[15:06:28.626 [main] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 25
-15:06:28.851 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/System.class, falling back to simple import
+  <testcase name="domain_should_not_depend_on_application_or_infrastructure" classname="HexagonalArchitectureTest" time="0.407">
+    <system-out><![CDATA[15:22:38.049 [main] INFO com.tngtech.archunit.core.PluginLoader -- Detected Java version 25
+15:22:38.257 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/System.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -133,7 +133,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.856 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/regex/Matcher.class, falling back to simple import
+15:22:38.262 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/regex/Matcher.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -203,7 +203,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.857 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Long.class, falling back to simple import
+15:22:38.263 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Long.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -273,7 +273,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.859 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/String.class, falling back to simple import
+15:22:38.265 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/String.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -346,7 +346,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.860 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Objects.class, falling back to simple import
+15:22:38.266 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Objects.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -416,7 +416,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.861 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Optional.class, falling back to simple import
+15:22:38.268 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Optional.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -486,7 +486,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.862 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/regex/Pattern.class, falling back to simple import
+15:22:38.268 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/regex/Pattern.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -556,7 +556,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.863 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Throwable.class, falling back to simple import
+15:22:38.270 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Throwable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -626,7 +626,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.866 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/time/LocalDateTime.class, falling back to simple import
+15:22:38.272 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/time/LocalDateTime.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -696,7 +696,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.868 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/PrintStream.class, falling back to simple import
+15:22:38.274 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/PrintStream.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -766,7 +766,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.870 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/RuntimeException.class, falling back to simple import
+15:22:38.276 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/RuntimeException.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -836,7 +836,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.871 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/IllegalArgumentException.class, falling back to simple import
+15:22:38.277 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/IllegalArgumentException.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -906,7 +906,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.872 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Object.class, falling back to simple import
+15:22:38.278 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Object.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -976,7 +976,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.876 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Inherited.class, falling back to simple import
+15:22:38.281 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Inherited.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1046,7 +1046,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.876 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Integer.class, falling back to simple import
+15:22:38.282 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Integer.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1116,7 +1116,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.878 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Enum.class, falling back to simple import
+15:22:38.283 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Enum.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1186,7 +1186,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.878 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Documented.class, falling back to simple import
+15:22:38.284 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Documented.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1256,7 +1256,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.886 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Annotation.class, falling back to simple import
+15:22:38.292 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Annotation.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1326,7 +1326,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.890 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Retention.class, falling back to simple import
+15:22:38.298 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Retention.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1396,7 +1396,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.891 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Repeatable.class, falling back to simple import
+15:22:38.299 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Repeatable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1466,7 +1466,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.893 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Deprecated.class, falling back to simple import
+15:22:38.301 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Deprecated.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1536,7 +1536,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.893 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/StackWalker$StackFrame.class, falling back to simple import
+15:22:38.301 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/StackWalker$StackFrame.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1606,7 +1606,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.894 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Target.class, falling back to simple import
+15:22:38.302 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/Target.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1676,7 +1676,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.894 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/ElementType.class, falling back to simple import
+15:22:38.302 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/ElementType.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1746,7 +1746,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.895 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Class.class, falling back to simple import
+15:22:38.304 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Class.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1816,7 +1816,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.896 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/RetentionPolicy.class, falling back to simple import
+15:22:38.304 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/annotation/RetentionPolicy.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1886,7 +1886,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.901 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Set.class, falling back to simple import
+15:22:38.308 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Set.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -1956,7 +1956,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.901 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/EventListener.class, falling back to simple import
+15:22:38.309 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/EventListener.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2026,7 +2026,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.903 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Constructor.class, falling back to simple import
+15:22:38.311 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Constructor.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2096,7 +2096,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.905 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Field.class, falling back to simple import
+15:22:38.325 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Field.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2166,7 +2166,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.908 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Method.class, falling back to simple import
+15:22:38.331 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Method.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2236,7 +2236,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.909 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/List.class, falling back to simple import
+15:22:38.336 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/List.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2306,7 +2306,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.911 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/FunctionalInterface.class, falling back to simple import
+15:22:38.339 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/FunctionalInterface.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2376,7 +2376,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.914 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/EventObject.class, falling back to simple import
+15:22:38.343 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/EventObject.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2446,7 +2446,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.916 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Collection.class, falling back to simple import
+15:22:38.345 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Collection.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2516,7 +2516,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.920 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/Closeable.class, falling back to simple import
+15:22:38.350 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/Closeable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2586,7 +2586,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.920 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Comparable.class, falling back to simple import
+15:22:38.351 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Comparable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2656,7 +2656,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.933 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Iterator.class, falling back to simple import
+15:22:38.364 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Iterator.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2749,7 +2749,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.934 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/ListIterator.class, falling back to simple import
+15:22:38.364 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/ListIterator.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2842,7 +2842,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.935 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Supplier.class, falling back to simple import
+15:22:38.365 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Supplier.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -2935,7 +2935,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.939 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Iterable.class, falling back to simple import
+15:22:38.370 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Iterable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3029,7 +3029,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.940 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Map.class, falling back to simple import
+15:22:38.371 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Map.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3122,7 +3122,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.949 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Member.class, falling back to simple import
+15:22:38.379 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Member.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3215,7 +3215,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.952 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Function.class, falling back to simple import
+15:22:38.382 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Function.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3309,7 +3309,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.960 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/net/URI.class, falling back to simple import
+15:22:38.391 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/net/URI.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3399,7 +3399,289 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.963 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/stream/Stream.class, falling back to simple import
+15:22:38.394 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/net/URL.class, falling back to simple import
+java.lang.IllegalArgumentException: Unsupported class file major version 69
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
+	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
+	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
+	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
+	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
+	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
+	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
+	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
+	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
+	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+15:22:38.394 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/nio/file/Path.class, falling back to simple import
+java.lang.IllegalArgumentException: Unsupported class file major version 69
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
+	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
+	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
+	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
+	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
+	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
+	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
+	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
+	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
+	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+15:22:38.394 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/jar/JarFile.class, falling back to simple import
+java.lang.IllegalArgumentException: Unsupported class file major version 69
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
+	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
+	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
+	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
+	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
+	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
+	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
+	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
+	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
+	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+15:22:38.394 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/stream/Stream.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3492,7 +3774,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.963 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/nio/file/Path.class, falling back to simple import
+15:22:38.401 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/AnnotatedElement.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3586,7 +3868,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.964 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/jar/JarFile.class, falling back to simple import
+15:22:38.402 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/ClassLoader.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -3680,289 +3962,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.964 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/net/URL.class, falling back to simple import
-java.lang.IllegalArgumentException: Unsupported class file major version 69
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
-	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
-	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
-	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
-	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
-	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
-	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
-	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
-	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
-	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.970 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/AnnotatedElement.class, falling back to simple import
-java.lang.IllegalArgumentException: Unsupported class file major version 69
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
-	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
-	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
-	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
-	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
-	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
-	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
-	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
-	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
-	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.971 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/ClassLoader.class, falling back to simple import
-java.lang.IllegalArgumentException: Unsupported class file major version 69
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
-	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
-	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
-	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
-	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
-	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
-	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
-	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
-	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
-	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.974 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/ThreadLocal.class, falling back to simple import
+15:22:38.406 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/ThreadLocal.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4055,7 +4055,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.975 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Runnable.class, falling back to simple import
+15:22:38.407 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Runnable.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4149,7 +4149,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.976 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Properties.class, falling back to simple import
+15:22:38.409 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Thread.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4243,101 +4243,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.978 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Thread.class, falling back to simple import
-java.lang.IllegalArgumentException: Unsupported class file major version 69
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
-	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
-	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
-	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
-	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
-	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
-	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
-	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
-	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
-	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
-	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
-	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
-	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
-	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
-	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
-	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
-	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
-	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
-	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
-	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
-	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
-	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.978 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Exception.class, falling back to simple import
+15:22:38.409 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/Exception.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4429,7 +4335,101 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.979 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/IOException.class, falling back to simple import
+15:22:38.409 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Properties.class, falling back to simple import
+java.lang.IllegalArgumentException: Unsupported class file major version 69
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:166)
+	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:288)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor$UriImporterOfProcessor.tryImport(ClassFileProcessor.java:350)
+	at com.tngtech.archunit.core.importer.resolvers.ClassResolverFromClasspath.tryResolve(ClassResolverFromClasspath.java:51)
+	at com.tngtech.archunit.core.importer.ImportedClasses.resolve(ImportedClasses.java:74)
+	at com.tngtech.archunit.core.importer.ImportedClasses.getOrResolve(ImportedClasses.java:61)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.get(DomainBuilders.java:180)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.asJavaClasses(DomainBuilders.java:330)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaCodeUnitBuilder.getRawParameterTypes(DomainBuilders.java:304)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit$Parameters.<init>(JavaCodeUnit.java:317)
+	at com.tngtech.archunit.core.domain.JavaCodeUnit.<init>(JavaCodeUnit.java:82)
+	at com.tngtech.archunit.core.domain.JavaMethod.<init>(JavaMethod.java:44)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.createJavaMethod(DomainObjectCreationContext.java:144)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:374)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMethodBuilder.construct(DomainBuilders.java:359)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:207)
+	at com.tngtech.archunit.core.importer.DomainBuilders$JavaMemberBuilder.build(DomainBuilders.java:139)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.lambda$build$0(DomainBuilders.java:893)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1716)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723)
+	at com.tngtech.archunit.core.importer.DomainBuilders$BuilderWithBuildParameter$BuildFinisher.build(DomainBuilders.java:893)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.createMethods(ClassGraphCreator.java:322)
+	at com.tngtech.archunit.core.domain.JavaClassMembers.create(JavaClassMembers.java:352)
+	at com.tngtech.archunit.core.domain.JavaClass.completeMembers(JavaClass.java:1476)
+	at com.tngtech.archunit.core.domain.DomainObjectCreationContext.completeMembers(DomainObjectCreationContext.java:96)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.completeClasses(ClassGraphCreator.java:120)
+	at com.tngtech.archunit.core.importer.ClassGraphCreator.complete(ClassGraphCreator.java:108)
+	at com.tngtech.archunit.core.importer.ClassFileProcessor.process(ClassFileProcessor.java:75)
+	at com.tngtech.archunit.core.importer.ClassFileImporter.importLocations(ClassFileImporter.java:325)
+	at com.tngtech.archunit.junit.internal.ClassCache$CacheClassFileImporter.importClasses(ClassCache.java:126)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.initialize(ClassCache.java:118)
+	at com.tngtech.archunit.junit.internal.ClassCache$LazyJavaClasses.get(ClassCache.java:107)
+	at com.tngtech.archunit.junit.internal.ClassCache.getClassesToAnalyzeFor(ClassCache.java:84)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor.lambda$createChildren$1(ArchUnitTestDescriptor.java:89)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:166)
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:149)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+15:22:38.411 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/io/IOException.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4521,7 +4521,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.980 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Predicate.class, falling back to simple import
+15:22:38.413 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Predicate.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4614,7 +4614,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.981 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/IllegalStateException.class, falling back to simple import
+15:22:38.414 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/IllegalStateException.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4706,7 +4706,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.982 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/time/Clock.class, falling back to simple import
+15:22:38.414 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/time/Clock.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4800,7 +4800,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.982 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Consumer.class, falling back to simple import
+15:22:38.414 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/function/Consumer.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4894,7 +4894,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.983 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Locale.class, falling back to simple import
+15:22:38.416 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/util/Locale.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -4988,7 +4988,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:28.991 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Type.class, falling back to simple import
+15:22:38.424 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/reflect/Type.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -5081,7 +5081,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-15:06:29.002 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/CharSequence.class, falling back to simple import
+15:22:38.435 [main] WARN com.tngtech.archunit.core.importer.ClassFileProcessor -- Error during import from jrt:/java.base/java/lang/CharSequence.class, falling back to simple import
 java.lang.IllegalArgumentException: Unsupported class file major version 69
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:200)
 	at com.tngtech.archunit.thirdparty.org.objectweb.asm.ClassReader.<init>(ClassReader.java:180)
@@ -5164,6 +5164,7 @@ java.lang.IllegalArgumentException: Unsupported class file major version 69
 ]]></system-out>
   </testcase>
   <testcase name="application_should_not_depend_on_infrastructure" classname="HexagonalArchitectureTest" time="0.001"/>
+  <testcase name="infrastructure_adapters_should_not_depend_on_input_adapters" classname="HexagonalArchitectureTest" time="0.001"/>
   <testcase name="domain_packages_should_follow_conventions" classname="HexagonalArchitectureTest" time="0.0"/>
   <testcase name="application_packages_should_follow_conventions" classname="HexagonalArchitectureTest" time="0.0"/>
   <testcase name="infrastructure_packages_should_follow_conventions" classname="HexagonalArchitectureTest" time="0.0"/>
