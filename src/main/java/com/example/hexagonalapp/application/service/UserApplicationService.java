@@ -1,7 +1,5 @@
 package com.example.hexagonalapp.application.service;
 
-import com.example.hexagonalapp.application.dto.CreateUserCommand;
-import com.example.hexagonalapp.application.dto.GetUserQuery;
 import com.example.hexagonalapp.application.port.in.CreateUserUseCase;
 import com.example.hexagonalapp.application.port.in.GetUserUseCase;
 import com.example.hexagonalapp.application.port.out.EmailService;
@@ -28,15 +26,15 @@ public class UserApplicationService implements CreateUserUseCase, GetUserUseCase
         this.userDomainService = userDomainService;
     }
 
-    public User createUser(CreateUserCommand command) {
+    public User createUser(String nameIn, String emailIn) {
         // Validate email uniqueness
-        if (userRepository.existsByEmail(command.getEmail())) {
+        if (userRepository.existsByEmail(emailIn)) {
             throw new IllegalArgumentException("Email already exists");
         }
 
         // Create domain object
-        EmailAddress email = new EmailAddress(command.getEmail());
-        Name name = new Name(command.getName());
+        EmailAddress email = new EmailAddress(emailIn);
+        Name name = new Name(nameIn);
         User user = new User(name, email);
 
         // Validate user using domain service
@@ -57,8 +55,8 @@ public class UserApplicationService implements CreateUserUseCase, GetUserUseCase
         return savedUser;
     }
 
-    public User getUser(GetUserQuery query) {
-        return userRepository.findById(query.getUserId())
+    public User getUser(Long userId) {
+        return userRepository.findById(userId)
                 .orElseThrow(() -> new IllegalArgumentException("User not found"));
     }
 }

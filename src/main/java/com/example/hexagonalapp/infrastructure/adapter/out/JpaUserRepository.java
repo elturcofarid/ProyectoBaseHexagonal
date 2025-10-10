@@ -31,8 +31,8 @@ public class JpaUserRepository implements UserRepository {
     }
 
     @Override
-    public Optional<User> findById(UserId id) {
-        return springDataRepository.findById(id.getValue())
+    public Optional<User> findById(Long id) {
+        return springDataRepository.findById(id)
                 .map(this::toDomain);
     }
 

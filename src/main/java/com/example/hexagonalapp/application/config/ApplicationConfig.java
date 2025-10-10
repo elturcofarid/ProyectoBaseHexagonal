@@ -1,4 +1,4 @@
-package com.example.hexagonalapp.infrastructure.adapter.config;
+package com.example.hexagonalapp.application.config;
 
 import com.example.hexagonalapp.application.port.in.CreateUserUseCase;
 import com.example.hexagonalapp.application.port.in.GetUserUseCase;

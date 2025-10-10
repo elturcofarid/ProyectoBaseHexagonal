@@ -1,7 +1,6 @@
 package com.example.hexagonalapp.application.port.out;
 
 import com.example.hexagonalapp.domain.model.entity.User;
-import com.example.hexagonalapp.domain.model.valueobject.UserId;
 
 import java.util.Optional;
 
@@ -12,6 +11,6 @@ import java.util.Optional;
  */
 public interface UserRepository {
     User save(User user);
-    Optional<User> findById(UserId id);
+    Optional<User> findById(Long id);
     boolean existsByEmail(String email);
 }

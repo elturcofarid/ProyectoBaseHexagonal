@@ -1,11 +1,11 @@
 package com.example.hexagonalapp.infrastructure.adapter.in;
 
-import com.example.hexagonalapp.application.dto.CreateUserCommand;
-import com.example.hexagonalapp.application.dto.GetUserQuery;
 import com.example.hexagonalapp.application.port.in.CreateUserUseCase;
 import com.example.hexagonalapp.application.port.in.GetUserUseCase;
 import com.example.hexagonalapp.domain.model.entity.User;
-import com.example.hexagonalapp.domain.model.valueobject.UserId;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -26,22 +26,24 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<User> createUser(@RequestBody CreateUserRequest request) {
-        CreateUserCommand command = new CreateUserCommand(request.getName(), request.getEmail());
-        User user = createUserUseCase.createUser(command);
+    public ResponseEntity<User> createUser(@Valid @RequestBody CreateUserRequest request) {
+        User user = createUserUseCase.createUser(request.getName(), request.getEmail());
         return ResponseEntity.ok(user);
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<User> getUser(@PathVariable Long id) {
-        GetUserQuery query = new GetUserQuery(new UserId(id));
-        User user = getUserUseCase.getUser(query);
+        User user = getUserUseCase.getUser(id);
         return ResponseEntity.ok(user);
     }
 
     // DTO for request body
     public static class CreateUserRequest {
+        @NotBlank(message = "Name is required")
         private String name;
+
+        @NotBlank(message = "Email is required")
+        @Email(message = "Email should be valid")
         private String email;
 
         public String getName() {

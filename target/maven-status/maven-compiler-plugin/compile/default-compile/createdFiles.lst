@@ -5,7 +5,7 @@ com/example/hexagonalapp/application/port/in/GetUserUseCase.class
 com/example/hexagonalapp/domain/model/domainevent/UserCreatedEvent.class
 com/example/hexagonalapp/domain/model/valueobject/Name.class
 com/example/hexagonalapp/infrastructure/adapter/out/SpringDataUserRepository.class
-com/example/hexagonalapp/infrastructure/adapter/config/ApplicationConfig.class
+com/example/hexagonalapp/application/config/ApplicationConfig.class
 com/example/hexagonalapp/infrastructure/adapter/out/EmailServiceAdapter.class
 com/example/hexagonalapp/infrastructure/adapter/in/UserController$CreateUserRequest.class
 com/example/hexagonalapp/domain/model/valueobject/EmailAddress.class
@@ -13,9 +13,8 @@ com/example/hexagonalapp/application/port/out/EmailService.class
 com/example/hexagonalapp/domain/model/valueobject/UserId.class
 com/example/hexagonalapp/HexagonalAppApplication.class
 com/example/hexagonalapp/application/service/UserApplicationService.class
-com/example/hexagonalapp/application/dto/CreateUserCommand.class
 com/example/hexagonalapp/domain/model/entity/User.class
-com/example/hexagonalapp/application/dto/GetUserQuery.class
+com/example/hexagonalapp/infrastructure/adapter/config/ErrorResponse.class
 com/example/hexagonalapp/infrastructure/persistence/entity/UserEntity.class
 com/example/hexagonalapp/infrastructure/adapter/in/UserController.class
 com/example/hexagonalapp/application/port/in/CreateUserUseCase.class
