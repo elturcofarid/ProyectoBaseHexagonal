@@ -16,7 +16,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                echo 'Clonando repositorio......'
+                echo 'Clonando repositorio con cambios......'
                 checkout scm
             }
         }
