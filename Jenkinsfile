@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Nombre del artefacto final (ajústalo según tu proyecto)
-        APP_NAME = "hexagonalbase-app"
+        APP_NAME = "hexagonal_base"
         IMAGE_NAME = "hexagonalbase-app"
         CONTAINER_NAME = "hexagonalbase-container"
 
@@ -46,6 +46,7 @@ pipeline {
                     sh """
                         ./mvnw sonar:sonar \
                         -Dsonar.projectKey=${APP_NAME} \
+                        -Dsonar.projectName=${APP_NAME} \
                         -Dsonar.host.url=${SONAR_HOST_URL} \
                         -Dsonar.login=${SONARQUBE_TOKEN}
                     """
