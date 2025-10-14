@@ -9,7 +9,7 @@ pipeline {
 
         // Configura tus credenciales y URLs de SonarQube
         SONARQUBE_SERVER = 'SonarQubeServer'   // nombre definido en Jenkins (Manage Jenkins > Configure System)
-        SONARQUBE_TOKEN = credentials('sonar-token') // ID del token en Jenkins credentials
+        SONARQUBE_TOKEN = credentials('jenkins-token') // ID del token en Jenkins credentials
     }
 
     stages {
