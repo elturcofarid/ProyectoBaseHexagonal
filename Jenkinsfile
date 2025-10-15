@@ -47,14 +47,14 @@ pipeline {
             steps {
                 echo 'Analizando calidad de código con SonarQube...'
                 script {
-                    //withSonarQubeEnv("${SONARQUBE_SERVER}") {
+                    withSonarQubeEnv("${SONARQUBE_SERVER}") {
                         // Usa variables de entorno proporcionadas por withSonarQubeEnv
                         sh """
                             ./mvnw sonar:sonar \
                             -Dsonar.projectKey=${APP_NAME} \
                             -Dsonar.projectName=${APP_NAME}
                         """
-                   // }
+                   }
                 }
             }
         }
