@@ -9,7 +9,7 @@ pipeline {
 
         // Configura tus credenciales y URLs de SonarQube
         SONARQUBE_SERVER = 'SonarQubeServer'   // nombre definido en Jenkins (Manage Jenkins > Configure System)
-        SONARQUBE_TOKEN = credentials('jenkins-token') // ID del token en Jenkins credentials
+        SONARQUBE_TOKEN = 'sqp_330f8448041a3b0ba33aed208257f497178beb63' // ID del token en Jenkins credentials
     }
 
     stages {
@@ -47,7 +47,7 @@ pipeline {
                         ./mvnw sonar:sonar \
                         -Dsonar.projectKey=${APP_NAME} \
                         -Dsonar.projectName=${APP_NAME} \
-                        -Dsonar.host.url=${SONAR_HOST_URL} \
+                        -Dsonar.host.url=http://localhost:9000 \
                         -Dsonar.login=${SONARQUBE_TOKEN}
                     """
                 }
