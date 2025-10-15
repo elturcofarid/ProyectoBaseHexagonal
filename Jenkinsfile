@@ -70,25 +70,25 @@ pipeline {
         stage('Build Docker Image') {
             steps {
                 echo 'Construyendo imagen Docker...'
-                script {
+               // script {
                     // Verifica si Docker está disponible
-                    sh 'docker version || echo "Docker no disponible"'
-                    sh """
-                        docker build -t ${IMAGE_NAME}:latest .
-                    """
-                }
+                   // sh 'docker version || echo "Docker no disponible"'
+                   // sh """
+                   //     docker build -t ${IMAGE_NAME}:latest .
+                   // """
+              //  }
             }
         }
 
         stage('Deploy Container') {
             steps {
                 echo 'Desplegando nuevo contenedor...'
-                script {
-                    sh """
-                        docker rm -f ${CONTAINER_NAME} || true
-                        docker run -d --name ${CONTAINER_NAME} -p 8080:8080 ${IMAGE_NAME}:latest || echo "No se pudo desplegar el contenedor"
-                    """
-                }
+                //script {
+                //    sh """
+               //         docker rm -f ${CONTAINER_NAME} || true
+                 //       docker run -d --name ${CONTAINER_NAME} -p 8080:8080 ${IMAGE_NAME}:latest || echo "No se pudo desplegar el contenedor"
+                 //   """
+             //   }
             }
         }
     }
@@ -97,7 +97,7 @@ pipeline {
         always {
             echo "Pipeline execution completed"
             // Limpieza opcional
-            sh 'docker ps -a'
+           // sh 'docker ps -a'
         }
         success {
             echo "✅ Pipeline completado con éxito. Aplicación desplegada correctamente."
