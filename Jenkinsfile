@@ -1,12 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        // Configura estas herramientas en Jenkins: Manage Jenkins > Global Tool Configuration
-        jdk 'jdk11'  // o el JDK que tengas configurado
-        maven 'maven3' // o el Maven que tengas configurado
-    }
-
     environment {
         APP_NAME = "hexagonal_base"
         IMAGE_NAME = "hexagonalbase-app"
