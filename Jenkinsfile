@@ -52,7 +52,8 @@ pipeline {
                         sh """
                             ./mvnw sonar:sonar \
                             -Dsonar.projectKey=${APP_NAME} \
-                            -Dsonar.projectName=${APP_NAME}
+                            -Dsonar.projectName=${APP_NAME} \
+                            -Dsonar.login=sqp_330f8448041a3b0ba33aed208257f497178beb63
                         """
                    }
                 }
